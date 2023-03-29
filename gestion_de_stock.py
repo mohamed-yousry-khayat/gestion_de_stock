@@ -208,8 +208,8 @@ except Exception as e:
     db_cursor.close()
     exit(-1)
 
-window = Tk(classnom="Tableau de bord")
-font.nomtofont("TkDefaultFont").configure(size=12)
+window = Tk(className="Tableau de bord")
+font.nametofont("TkDefaultFont").configure(size=12)
 window.geometry("500x600")
 window.resizable(width=False, height=False)
 
